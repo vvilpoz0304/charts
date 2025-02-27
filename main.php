@@ -3,9 +3,9 @@
 require __DIR__ . '/vendor/autoload.php';
 
 $pusher = new Pusher\Pusher(
-    "e2ea5ab570585eaefec2", // Replace with 'key' from dashboard
-    "5c409230ae0065b8159f", // Replace with 'secret' from dashboard
-    "1949040", // Replace with 'app_id' from dashboard
+    "xxxxxx", // Replace with 'key' from dashboard
+    "xxxxxxx", // Replace with 'secret' from dashboard
+    "xxx", // Replace with 'app_id' from dashboard
     array(
         'cluster' => 'eu' // Replace with 'cluster' from dashboard
     )
